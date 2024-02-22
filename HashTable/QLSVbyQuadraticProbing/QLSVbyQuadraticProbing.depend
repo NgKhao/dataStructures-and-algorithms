@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1703649491 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbyquadraticprobing\main.cpp
+	<iostream>
+	"hashNode.h"
+	"hashTable.h"
+
+1703525104 k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbyquadraticprobing\include\hashnode.h
+	<string>
+
+1703650693 k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbyquadraticprobing\include\hashtable.h
+	"hashNode.h"
+
+1703525104 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbyquadraticprobing\src\hashnode.cpp
+	"hashNode.h"
+
+1703651304 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbyquadraticprobing\src\hashtable.cpp
+	"hashTable.h"
+	<iostream>
+	<iomanip>
+

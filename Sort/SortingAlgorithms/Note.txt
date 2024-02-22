@@ -1,0 +1,10 @@
+// Selection Sort ( Sắp xếp chọn) : duyệt để chọn phần tử nhỏ nhất trong mảng chưa đc sắp xếp và
+swap nó với phần tử trong mảng chưa đc sắp xếp
+
+// insetionSort: duyệt ptu t2 đến cuối mảng, cho phần tử đang duyệt là key, duyệt tiếp các phần tử đứng trước từ phải sang trái key \
+và nếu lớn hơn thì gán nó bằng chỗ key đang đứng, cứ như vậy đến khi key lớn nhất thì gán nó cho vị trí hiện tại
+
+// Heap sort (sx vung đống ) : xếp các phần tử thành max heap tree từ đó lấy nút gốc swap với nút cuối lấy ra
+con lớn nhất và buil heaptree cây còn lại
+con trái 2i+1 , con phai 2i+2, parent (i- 1)/2 => ba của node cuối (N -1) - 1 / 2 = N / 2 - 1
+

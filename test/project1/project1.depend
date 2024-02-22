@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1695185640 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\project1\main.cpp
+	<iostream>
+	<ELEMENT.h>
+
+1695189261 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\project1\include\element.h
+	<iostream>
+
+1695189383 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\project1\src\element.cpp
+	"ELEMENT.h"
+

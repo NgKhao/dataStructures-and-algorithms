@@ -1,0 +1,191 @@
+#include "AVL.h"
+#include<iostream>
+using namespace std;
+int max(int a, int b)
+{
+    return (a > b) ? a : b;
+}
+
+AVL::AVL()
+{
+    this->root = nullptr;
+}
+
+AVL::~AVL()
+{
+    //dtor
+}
+
+int AVL::getBalance(Node *r)
+{
+    if(r == nullptr)
+        return 0;
+    return r->getLeft()->getHeight() - r->getRight()->getHeight();
+}
+
+//tham khao cach code tai https://www.youtube.com/watch?v=EArmT99aijk
+
+Node* AVL::leftRotation(Node *r)
+{
+
+    Node* returnNode = r->getRight();
+    r->setRight(returnNode->getLeft());
+    returnNode->setLeft(r);
+
+    // có cách xoay tương tự trên mạng
+
+    r->setHeight(max(r->getLeft()->getHeight(), r->getLeft()->getHeight()) + 1);
+    returnNode->setHeight(max(returnNode->getLeft()->getHeight(), returnNode->getRight()->getHeight()) + 1);
+
+    return returnNode;
+}
+
+Node* AVL::rightRotation(Node *r)
+{
+    Node* returnNode = r->getLeft();
+    r->setLeft(returnNode->getRight());
+    returnNode->setRight(r);
+
+    r->setHeight(max(r->getLeft()->getHeight(), r->getLeft()->getHeight()) + 1);
+    returnNode->setHeight(max(returnNode->getLeft()->getHeight(), returnNode->getRight()->getHeight()) + 1);
+    return returnNode;
+}
+
+Node* AVL::insertNode(Node *r, int key)
+{
+    if(r == nullptr)
+        return new Node(key);
+    if(key < r->getKey())
+        r->setLeft(insertNode(r->getLeft(), key));
+    else if(key > r->getKey())
+        r->setRight(insertNode(r->getRight(), key));
+    else // Equal keys are not allowed in BST
+        return r;
+
+    r->setHeight(max(r->getLeft()->getHeight(), r->getRight()->getHeight()) + 1);
+
+    int balance = getBalance(r);
+
+    // LL case
+    if(balance > 1 && key < r->getLeft()->getKey())
+    {
+        return rightRotation(r);
+    }
+    //LR case
+    if(balance > 1 && key > r->getLeft()->getKey())
+    {
+        r->setLeft(leftRotation(r->getLeft())); // truyen node giua trong th LR vao ham
+        return rightRotation(r);
+    }
+//    RR case
+    if(balance < -1 && key > r->getRight()->getKey())
+    {
+        return leftRotation(r);
+    }
+    if(balance < -1 && key < r->getRight()->getKey())
+    {
+        r->setRight(rightRotation(r->getRight())); // truyen node giua trong th LR vao ham
+        return leftRotation(r);
+    }
+    return r;
+}
+
+void AVL::insertNode(int key)
+{
+    // tưởng tượng như root = insert (....);
+    setRoot(insertNode(this->root, key));
+}
+void AVL::preOrder(Node *r)
+{
+    if(r != nullptr)
+    {
+        cout << r->getKey() << " "; //<< r->getHeight() << endl;
+        preOrder(r->getLeft());
+        preOrder(r->getRight());
+    }
+}
+
+int AVL::countSlPSoSanh = 0;
+Node* AVL::search_x(Node *r, int key)
+{
+    if(r == nullptr || r->getKey() == key)
+        return nullptr;
+    ++countSlPSoSanh;
+    if(key < r->getKey())
+        return search_x(r->getLeft(), key);
+    else if(key > r->getKey())
+        return search_x(r->getRight(), key);
+}
+
+Node* AVL::deleteNode(Node *r, int key)
+{
+    if(r == nullptr)
+        return nullptr;
+    else if(key < r->getKey())
+        r->setLeft(deleteNode(r->getLeft(), key));
+    else if(key > r->getKey())
+        r->setRight(deleteNode(r->getRight(), key));
+    else
+    {
+        if(r->getLeft() == nullptr)
+        {
+            Node* tmp = r;
+            r = r->getRight();
+            delete tmp;        }
+        else if(r->getRight() == nullptr)
+        {
+            Node* tmp = r;
+            r = r->getLeft();
+            delete tmp;        }
+        else
+        {
+//                trai nhat cay con phai
+            Node *tmp = new Node(findMin(r->getRight()));
+            r->setKey(tmp->getKey());
+            r->setRight(deleteNode(r->getRight(), tmp->getKey())); // tham so t2 la r hoac tmp van dung
+            //vi chi can key chu ko can can node, key cua 2 node do = nhau
+        }
+    }
+
+//    if(r == nullptr)
+//        return nullptr;
+
+    // update height of the current node
+    r->setHeight(max(r->getLeft()->getHeight(), r->getRight()->getHeight()) + 1);
+
+    // get balance of the current node
+    int balance = getBalance(r);
+
+    // LL case
+    if(balance > 1 && getBalance(r->getLeft()) >= 0)
+        return rightRotation(r);
+
+    // LR case
+    if(balance > 1 && getBalance(r->getLeft()) < 0)
+    {
+        r->setLeft(leftRotation(r->getLeft()));
+        return rightRotation(r);
+    }
+
+    // RR case
+    if(balance < -1 && getBalance(r->getRight()) <= 0)
+        return leftRotation(r);
+    if(balance < -1 && getBalance(r->getRight()) > 0)
+    {
+        r->setRight(rightRotation(r->getRight()));
+        return leftRotation(r);
+    }
+    return r;
+}
+
+void AVL::deleteNode(int key)
+{
+    setRoot(deleteNode(this->root, key));
+}
+
+int AVL::findMin(Node *r)
+{
+    if(r->getLeft() == nullptr)
+        return r->getKey();
+    return findMin(r->getLeft());
+}

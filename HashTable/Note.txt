@@ -1,0 +1,5 @@
+-lợi ích của hash table: như tìm 1 tiêu đề thì mình có mục lục có các chỉ lục sẽ dễ tìm kiếm hơn thay vì tìm từng trang
+-số bucket nên dùng số nguyên tố để sau khi chia có độ phủ đều giữa các giá trị băm
+- trong các bài code  hashIndex <=> hashValue; curr_index <=> curr hash value
+- pp băm kép: có tip hay: Có thể chứng minh được rằng, nếu cỡ của mảng và bước thăm dò h 2 (k) nguyên tố cùng nhau thì phương pháp băm kép cho phép ta tìm đến tất cả các vị trí trong mảng. Khẳng định trên sẽ đúng nếu chúng ta lựa chọn cỡ của mảng là số nguyên tố...... Xem ví dụ trong file ecxel
+- Trong phương pháp địa chỉ mở (Open addressing) lỗi khi search 1 node, or delete 1 Node có buket(hash value) trúng vào ô nullptr ( lỗi tại lệnh if( điều kiện 2 thằng key bằng nhau )  truy cập vào key của con trỏ null gây ra lỗi => check xem ô đầu có null ko trc khi delete or search

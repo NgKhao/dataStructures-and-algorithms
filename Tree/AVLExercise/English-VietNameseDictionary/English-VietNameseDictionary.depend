@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1701162025 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\english-vietnamesedictionary\src\node.cpp
+	"Node.h"
+
+1701180331 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\english-vietnamesedictionary\include\node.h
+	<string>
+
+1708070350 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\english-vietnamesedictionary\src\avldic.cpp
+	"AVLDic.h"
+	<iostream>
+
+1708070336 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\english-vietnamesedictionary\include\avldic.h
+	"Node.h"
+
+1701185279 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\english-vietnamesedictionary\main.cpp
+	<iostream>
+	<vector>
+	<utility>
+	<fstream>
+	"Node.h"
+	"AVLDic.h"
+

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1708077506 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\src\student.cpp
+	"Student.h"
+	<iostream>
+
+1708077470 k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\include\student.h
+	<string>
+
+1708077530 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\src\node.cpp
+	"Node.h"
+	<iostream>
+
+1708077530 k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\include\node.h
+	"Student.h"
+
+1707723227 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\main.cpp
+	<iostream>
+	"BST.h"
+	"Node.h"
+	"Student.h"
+
+1704851456 k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\include\bst.h
+	"Node.h"
+
+1707723265 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3\src\bst.cpp
+	"BST.h"
+	<iostream>
+

@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1697862575 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\src\element.cpp
+	"ELEMENT.h"
+
+1697860724 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\include\element.h
+
+1697869270 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\src\linkedlist.cpp
+	"LINKEDLIST.h"
+	<iostream>
+
+1697869270 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\include\linkedlist.h
+	"ELEMENT.h"
+
+1697903698 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\src\stack.cpp
+	"Stack.h"
+	"iostream"
+
+1697901169 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\include\stack.h
+	"LINKEDLIST.h"
+
+1697903686 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\stack\main.cpp
+	<iostream>
+	"Stack.h"
+

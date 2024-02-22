@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1696989772 source:d:\dowload_2023\dslk\stack_queque\delement.cpp
+	"DElement.h"
+
+1697417274 d:\dowload_2023\dslk\stack_queque\delement.h
+
+1695185426 source:d:\dowload_2023\dslk\stack_queque\element.cpp
+	"Element.h"
+
+1695184952 d:\dowload_2023\dslk\stack_queque\element.h
+	<iostream>
+
+1697429495 source:d:\dowload_2023\dslk\stack_queque\main.cpp
+	<iostream>
+	<Stack.h>
+
+1696989972 source:d:\dowload_2023\dslk\stack_queque\dlinkedlist.cpp
+	"DLinkedList.h"
+
+1697418690 d:\dowload_2023\dslk\stack_queque\dlinkedlist.h
+	"DElement.h"
+
+1696989772 source:d:\dowload_2023\dslk\stack_queque\src\delement.cpp
+	"DElement.h"
+
+1697417274 d:\dowload_2023\dslk\stack_queque\include\delement.h
+
+1696989972 source:d:\dowload_2023\dslk\stack_queque\src\dlinkedlist.cpp
+	"DLinkedList.h"
+
+1697418690 d:\dowload_2023\dslk\stack_queque\include\dlinkedlist.h
+	"DElement.h"
+
+1697429333 source:d:\dowload_2023\dslk\stack_queque\src\element.cpp
+	"Element.h"
+
+1695184952 d:\dowload_2023\dslk\stack_queque\include\element.h
+	<iostream>
+
+1697429745 source:d:\dowload_2023\dslk\stack_queque\src\linkedlist.cpp
+	"LinkedList.h"
+
+1697418677 d:\dowload_2023\dslk\stack_queque\include\linkedlist.h
+	"Element.h"
+
+1697429624 source:d:\dowload_2023\dslk\stack_queque\src\stack.cpp
+	"Stack.h"
+
+1697427313 d:\dowload_2023\dslk\stack_queque\include\stack.h
+	"LinkedList.h"
+

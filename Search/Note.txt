@@ -1,0 +1,9 @@
+Cách tính độ phưc tạp có thể hỏi gpt
+Tìm kiếm tuần tự vét cạn (Exhaustive Linear),
+Tìm kiếm tuần tự lính canh (Sentinel Linear): dùng khi ptu cần tìm nằm ở 2 biênf, giúp giảm tốt độ tìm kiếm khi mảng lớn
+tôt nhất O(1), khi ptu cần tìm ở đầu mảng
+xấu nhất O(n), trung bình O(n) xấu nhất khi ở cuối mảng hhoặc không tìm thấy
+
+Tìm kiếm nhị phân (Binary Search): sử dụng khi ptu đã được sắp xếp trc
+tôt nhất O(1), khi x là phần tử chính giữa của mảng
+xấu nhất O(n), trung bình O(n)  khi x không thuộc mảng hoặc x là phần tử cuối cùng của mảng

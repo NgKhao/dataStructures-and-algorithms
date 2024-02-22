@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1695604321 source:d:\dowload_2023\new folder\linked_list\main.cpp
+	<iostream>
+	"linkedlist.h"
+
+1695601335 source:d:\dowload_2023\new folder\linked_list\src\element.cpp
+	"element.h"
+
+1695601498 d:\dowload_2023\new folder\linked_list\include\element.h
+
+1695604089 d:\dowload_2023\new folder\linked_list\include\linkedlist.h
+	"element.h"
+
+1695604548 source:d:\dowload_2023\new folder\linked_list\src\linkedlist.cpp
+	"linkedlist.h"
+	<iostream>
+
+1695601335 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\linked_list\src\element.cpp
+	"element.h"
+
+1695604548 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\linked_list\src\linkedlist.cpp
+	"linkedlist.h"
+	<iostream>
+
+1584205420 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\linked_list\main.cpp
+	<iostream>
+

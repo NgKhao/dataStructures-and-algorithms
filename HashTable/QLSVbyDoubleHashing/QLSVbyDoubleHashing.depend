@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1703651376 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbydoublehashing\main.cpp
+	<iostream>
+	"hashNode.h"
+	"hashTable.h"
+
+1703609591 k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbydoublehashing\include\hashnode.h
+	<string>
+
+1703651401 k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbydoublehashing\include\hashtable.h
+	"hashNode.h"
+
+1703609591 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbydoublehashing\src\hashnode.cpp
+	"hashNode.h"
+
+1703651492 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\qlsvbydoublehashing\src\hashtable.cpp
+	"hashTable.h"
+	<iostream>
+	<iomanip>
+

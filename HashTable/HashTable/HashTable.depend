@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1702990046 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\hashtable\src\hashnode.cpp
+	"hashNode.h"
+
+1703007047 k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\hashtable\include\hashnode.h
+	<string>
+
+1703145407 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\hashtable\main.cpp
+	<iostream>
+	"hashNode.h"
+	"hashTable.h"
+
+1703171965 k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\hashtable\include\hashtable.h
+	"hashNode.h"
+
+1703144418 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\hashtable\hashtable\src\hashtable.cpp
+	"hashTable.h"
+	<iostream>
+	<iomanip>
+

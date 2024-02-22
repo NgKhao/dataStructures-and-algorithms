@@ -1,0 +1,1 @@
+các hàm như chèn, xóa, hay duyệt nếu dùng đệ qui thì phải truyền Node Root vào để có thể đệ qui tới các left và right

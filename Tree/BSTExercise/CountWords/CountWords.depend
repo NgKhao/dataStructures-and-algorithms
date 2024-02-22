@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1700580151 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countwords\src\node.cpp
+	"Node.h"
+
+1700580151 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countwords\include\node.h
+	<string>
+
+1700579477 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countwords\main.cpp
+	<iostream>
+	<sstream>
+	"Node.h"
+	"BST.h"
+
+1700579302 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countwords\include\bst.h
+	"Node.h"
+
+1700579496 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countwords\src\bst.cpp
+	"BST.h"
+	<iostream>
+
+1700580403 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countwords\main.cpp
+	<iostream>
+	<sstream>
+	"Node.h"
+	"BST.h"
+
+1700580151 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countwords\include\node.h
+	<string>
+
+1700579302 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countwords\include\bst.h
+	"Node.h"
+
+1700580151 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countwords\src\node.cpp
+	"Node.h"
+

@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1700970125 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\src\student.cpp
+	"Student.h"
+
+1700934839 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\include\student.h
+	<string>
+	<stdexcept>
+
+1700980532 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\main.cpp
+	<iostream>
+	"Student.h"
+	"Node.h"
+	"AVL.h"
+
+1700982859 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\include\node.h
+	"Student.h"
+
+1700982859 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\src\node.cpp
+	"Node.h"
+	<iostream>
+
+1700982871 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\src\avl.cpp
+	"AVL.h"
+	<iostream>
+
+1700982859 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlsinhvien\include\avl.h
+	"Node.h"
+
+1708075654 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\src\avl.cpp
+	"AVL.h"
+	<iostream>
+
+1700982859 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\include\avl.h
+	"Node.h"
+
+1708076212 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\include\node.h
+	"Student.h"
+
+1708076212 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\include\student.h
+	<string>
+	<stdexcept>
+
+1708075288 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\src\student.cpp
+	"Student.h"
+	<iostream>
+
+1704818506 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\main.cpp
+	<iostream>
+	"Student.h"
+	"Node.h"
+	"AVL.h"
+
+1708075288 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avlsinhvien\src\node.cpp
+	"Node.h"
+	<iostream>
+

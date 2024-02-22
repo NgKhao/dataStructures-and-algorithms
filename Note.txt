@@ -1,0 +1,10 @@
+Giải thuật không áp dụng kế thừa
+các hàm như insert hay delete sao khi tạo dưới dạng node* thì cần 1 hàm void để setRoot() tương tự như root = insert(...)
+để có thể liên kết với cây gốc
+
+Hàm đệ quy luôn đảm bảo rằng all các nhánh phải có return, trong hàm đệ quy nếu có nhiều trường hợp thì phải return từng trường hợp hoặc
+nếu trong hàm duyệt hết phải có return ở cuối hàm, còn ko sẽ gây ra lỗi không xác định trong 1 vài trường hợp
+
+tạo đối tượng Student muốn nctt <<
+//muốn gọi đối tượng student bằng tt << thì phải thêm const vào nctt vài các getter method vì 
+//compiler mặc định nctt không được thay đổi trạng thái  

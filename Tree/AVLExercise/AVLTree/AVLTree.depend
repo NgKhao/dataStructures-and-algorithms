@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1700732843 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avltree\src\node.cpp
+	"Node.h"
+
+1700754446 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avltree\include\node.h
+
+1701076506 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avltree\src\avl.cpp
+	"AVL.h"
+	<iostream>
+
+1701074669 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avltree\include\avl.h
+	"Node.h"
+
+1701075353 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avltree\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	"Node.h"
+	"AVL.h"
+
+1708067721 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avltree\src\avl.cpp
+	"AVL.h"
+	<iostream>
+
+1708056303 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avltree\include\avl.h
+	"Node.h"
+
+1700754446 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avltree\include\node.h
+
+1700732843 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avltree\src\node.cpp
+	"Node.h"
+
+1708067773 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\avlexercise\avltree\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	"Node.h"
+	"AVL.h"
+

@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1700572347 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countchar\src\node.cpp
+	"Node.h"
+
+1700572644 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countchar\include\node.h
+
+1700575834 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countchar\src\bst.cpp
+	"BST.h"
+	<iostream>
+
+1700574462 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countchar\include\bst.h
+	"Node.h"
+
+1700574187 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\countchar\main.cpp
+	<iostream>
+	"Node.h"
+	"BST.h"
+
+1700572347 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countchar\src\node.cpp
+	"Node.h"
+
+1700572644 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countchar\include\node.h
+
+1708068542 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countchar\main.cpp
+	<iostream>
+	"Node.h"
+	"BST.h"
+
+1700574462 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countchar\include\bst.h
+	"Node.h"
+
+1708068398 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\countchar\src\bst.cpp
+	"BST.h"
+	<iostream>
+

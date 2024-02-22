@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1699151823 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\binarysearchtree\src\node.cpp
+	"Node.h"
+
+1700572636 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\binarysearchtree\include\node.h
+
+1700911796 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\binarysearchtree\src\bst.cpp
+	"BST.h"
+
+1700911824 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\binarysearchtree\include\bst.h
+	"Node.h"
+	<iostream>
+
+1700911796 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\binarysearchtree\main.cpp
+	<iostream>
+	"BST.h"
+
+1699151823 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\binarysearchtree\src\node.cpp
+	"Node.h"
+
+1700572636 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\binarysearchtree\include\node.h
+
+1708006765 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\binarysearchtree\main.cpp
+	<iostream>
+	"BST.h"
+
+1707662958 k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\binarysearchtree\include\bst.h
+	"Node.h"
+	<iostream>
+
+1708008622 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\tree\bstexercise\binarysearchtree\src\bst.cpp
+	"BST.h"
+

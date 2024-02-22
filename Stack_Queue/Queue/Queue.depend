@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1697875401 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\src\element.cpp
+	"ELEMENT.h"
+
+1697875401 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\include\element.h
+
+1697875401 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\src\linkedlist.cpp
+	"LINKEDLIST.h"
+	<iostream>
+
+1697875401 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\include\linkedlist.h
+	"ELEMENT.h"
+
+1697875401 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\main.cpp
+	<iostream>
+	"Queue.h"
+
+1697875428 k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\include\queue.h
+	"LINKEDLIST.h"
+
+1697875447 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\chuong4\queue\src\queue.cpp
+	"Queue.h"
+	"iostream"
+

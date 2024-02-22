@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1704823385 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\src\node.cpp
+	"Node.h"
+
+1704849821 k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\include\node.h
+	"Employees.h"
+
+1704823385 k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\include\employees.h
+	<iostream>
+	<string>
+
+1704823385 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\src\employees.cpp
+	"Employees.h"
+
+1704823398 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\main.cpp
+	<iostream>
+	"ListOfEmployee.h"
+
+1704842562 k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\include\listofemployee.h
+	"Node.h"
+
+1704823385 source:k:\dulieuhoctap\hocki1nam2\ctdl&gt\kthp\bai3deanh\src\listofemployee.cpp
+	"ListOfEmployee.h"
+	<iostream>
+

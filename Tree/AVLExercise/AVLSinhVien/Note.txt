@@ -1,0 +1,1 @@
+Từ bài này có thể thấy không dùng tính chất kế thừa từ các class vì Student chỉ là 1 phần nhỏ của Node
